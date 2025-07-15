@@ -18,7 +18,7 @@ ___________________________________
 3. Установил необходимые пакеты:    
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison     
 ___________________________________
-4. Выполнил настройку ядра     
+4. Выполнил настройку ядра
 '''shell
 cd linux-6.11    
 cp -v /boot/config-$(uname -r) .config    
