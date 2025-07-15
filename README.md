@@ -19,15 +19,14 @@ ___________________________________
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison     
 ___________________________________
 4. Выполнил настройку ядра
-'''shell
+
 cd linux-6.11    
 cp -v /boot/config-$(uname -r) .config    
 make defconfig     
 "*** Default configuration is based on 'x86_64_defconfig'     
 #    
-# configuration written to .config     
-#     
-'''    
+ configuration written to .config     
+#         
 ___________________________________
 5. Выполнил сборку ядра:    
 make     
